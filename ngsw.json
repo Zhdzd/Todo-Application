@@ -1,0 +1,81 @@
+{
+  "configVersion": 1,
+  "timestamp": 1643601717181,
+  "index": "Todo-Application/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "Todo-Application/favicon.ico",
+        "Todo-Application/index.html",
+        "Todo-Application/main.97ae11bab1bc3d60.js",
+        "Todo-Application/manifest.webmanifest",
+        "Todo-Application/polyfills.a09c1f800ebe8e1a.js",
+        "Todo-Application/runtime.c57a9a5af3ade18e.js",
+        "Todo-Application/styles.63242ac7b2b20490.css"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "Todo-Application/assets/icons/icon-128x128.png",
+        "Todo-Application/assets/icons/icon-144x144.png",
+        "Todo-Application/assets/icons/icon-152x152.png",
+        "Todo-Application/assets/icons/icon-192x192.png",
+        "Todo-Application/assets/icons/icon-384x384.png",
+        "Todo-Application/assets/icons/icon-512x512.png",
+        "Todo-Application/assets/icons/icon-72x72.png",
+        "Todo-Application/assets/icons/icon-96x96.png"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [],
+  "hashTable": {
+    "Todo-Application/assets/icons/icon-128x128.png": "dae3b6ed49bdaf4327b92531d4b5b4a5d30c7532",
+    "Todo-Application/assets/icons/icon-144x144.png": "b0bd89982e08f9bd2b642928f5391915b74799a7",
+    "Todo-Application/assets/icons/icon-152x152.png": "7479a9477815dfd9668d60f8b3b2fba709b91310",
+    "Todo-Application/assets/icons/icon-192x192.png": "1abd80d431a237a853ce38147d8c63752f10933b",
+    "Todo-Application/assets/icons/icon-384x384.png": "329749cd6393768d3131ed6304c136b1ca05f2fd",
+    "Todo-Application/assets/icons/icon-512x512.png": "559d9c4318b45a1f2b10596bbb4c960fe521dbcc",
+    "Todo-Application/assets/icons/icon-72x72.png": "c457e56089a36952cd67156f9996bc4ce54a5ed9",
+    "Todo-Application/assets/icons/icon-96x96.png": "3914125a4b445bf111c5627875fc190f560daa41",
+    "Todo-Application/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
+    "Todo-Application/index.html": "a76dd76b2ecde0eff37d64070ee371e466c268e1",
+    "Todo-Application/main.97ae11bab1bc3d60.js": "7046ca848c63559dadeb424f6ea6380cdd64ede5",
+    "Todo-Application/manifest.webmanifest": "a69fbb71f28c08c4d3d93d543f951f41805da533",
+    "Todo-Application/polyfills.a09c1f800ebe8e1a.js": "a072bda08a3a02d601cc15e5e4217e6a7c0c8687",
+    "Todo-Application/runtime.c57a9a5af3ade18e.js": "8e92486585543bba428bd377469621bee1e149f3",
+    "Todo-Application/styles.63242ac7b2b20490.css": "58625ad88770b05af17bafb1ba9fda946001ce4d"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ],
+  "navigationRequestStrategy": "performance"
+}
