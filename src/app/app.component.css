@@ -1,0 +1,23 @@
+.strikethrough{
+   text-decoration: line-through red;
+   text-decoration-thickness: 4px;
+
+}
+.checkbox{
+  margin-top:10px;
+  margin-left:12px
+}
+.edit{
+  margin-right: 6px;
+}
+*{
+  color: black;
+}
+.hint{
+  color: red;
+  font-size: small;
+}
+/* .mat-checkbox{
+  background-color: black;
+} */
+
